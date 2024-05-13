@@ -4,5 +4,5 @@ Made using html and internal css
 
 ## Preview
 <p align="center">
-  <img src="view.jpg" width="300"/>
+  <img src="view.jpg" width="500"/>
 </p>
