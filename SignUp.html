@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sign up</title>
+    <link rel="icon" type="image/png" href="favicon.ico">
+
+    <style>
+        * {
+            padding: 0;
+            margin: 0;
+            border: none;
+            outline: none;
+            font-family:Sans-serif;
+            font-size: 18px;
+            box-sizing: border-box;
+        }
+        body{
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            min-height: 100vh;
+            background-color: hwb(152 1% 31%);
+        }
+        form{
+            background-color: #fff;
+            border-radius: 12px;
+            padding: 20px 28px;
+            width: 450px;
+        }
+        input[type="text"],
+        input[type="email"],
+        input[type="password"]{
+            width: 100%;
+            border: 1px solid #ded9ee;
+            padding: 16px;
+            border-radius: 8px;
+            color: #1b1b1b;
+            display: block;
+            transition: 180ms ease-in border-color;
+        }
+        input::placeholder{
+            color: grey;
+            font-weight: 300;
+        }
+        input:focus{
+            border-color: #89888b;
+        }
+        button[type="submit"],
+        input[type="submit"]{
+            background-color: #2ed573;
+            color: white;
+            padding: 12px;
+            border-radius: 8px;
+            display: block;
+            cursor: pointer;
+            width: 100%;
+        }
+        img{
+            display: block;
+            width: 110px;
+            margin: 0 auto;
+        }
+        span{
+            color: rgb(0, 102, 255);
+        }
+    </style>
+
+</head>
+<body>
+    <header></header>
+    <main>
+        <section>
+            <div>
+                <form action="">
+                    <div>
+                        <img src="w3schools_logo.png" alt="w3schools_logo">
+                    </div>
+                    <br>
+                    <div>
+                        <div>
+                            <input type="text" placeholder="first name" autofocus required>
+                        </div>
+                        <br>
+                        <div>
+                            <input type="text" placeholder="last name" required>
+                        </div>
+                        <br>
+                        <div>
+                            <input type="email" placeholder="email" required>
+                        </div>
+                        <br>
+                        <div>
+                            <input type="password" placeholder="password" required maxlength="8">
+                        </div>
+                        <br>
+                        <div>
+                            <input type="password" placeholder="confirm password" required maxlength="8">
+                        </div>
+                    </div>
+                    <br>
+                    <div>
+                        <input type="checkbox" id="checkbox" required>
+                        <label for="checkbox">I accept the terms of the <span><a href="https://www.w3schools.com/">W3schools</a></span> site</label>
+                    </div>
+                    <br>
+                    <div>
+                        <input type="submit" value="Sign Up">
+                        
+                    </div>
+                </form>
+            </div>
+        </section>
+    </main>
+    <footer></footer>
+    
+</body>
+</html>
